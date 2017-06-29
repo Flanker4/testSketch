@@ -5,6 +5,7 @@
   "description": "",
   "authorEmail": "",
   "name": "Reinvently MoodBooards",
+  "appcast": "https://raw.githubusercontent.com/Flanker4/testSketch/master/appcast.xml",
   "commands": [
     {
       "name": "Generate MoodBooards",
