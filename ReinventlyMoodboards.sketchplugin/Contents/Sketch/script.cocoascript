@@ -1,0 +1,17 @@
+@import 'SketchPlugin.framework/RSPHelper.js'
+var onRun = function(context) {
+  var main = RSPMain.alloc().init();
+  main.run(context)
+};
+
+function openHelp(){
+  openURL('http://reinvently.com/contact/');
+}
+
+function openFeedback(){
+  openURL('http://gitlab.provectus-it.com/MD/sketch_plugin/issues/new');
+}
+
+function openURL(url){
+	 NSWorkspace.sharedWorkspace().openURL(NSURL.URLWithString(url));
+}
